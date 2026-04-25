@@ -48,6 +48,6 @@ http://localhost:5173
 For demonstration purposes, 50 courses are stored in a JSON file. Users can browse and search for any course they are interested in learning. 
 ![alt text](image.png)
 
-2. 
+2. hendnjfnd fdnj
 
 
