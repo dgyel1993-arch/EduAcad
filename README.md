@@ -1,6 +1,7 @@
-### Project Title: EduAcad- An Online Educational Learning Platform
+# Project Title: EduAcad- An Online Educational Learning Platform
 
-Prject Overview
+### Prject Overview
+
 EduAcad is a modern online education Learning platfrm inspired from Udemy and Coursera built using React+Vite.
 It allows users to browse courses, enroll in them, track learning progress, complete modules, and manage their profile.
 
@@ -13,14 +14,14 @@ The system simulates a real-world e-learning platfrom such as Udemy and Coursera
 - Dashboard analytics
 
 
-# Technology Stack
+### Technology Stack
 - Frontend: React.js
 - Routing: React Router DOM
 - Styling: CSS modules + Bootstrap
 - Icons: React Icons
 - Data Storage: JSON file for storing courses, modules and inital signed in users. LocalStorage for mock backend.
 
-# Installation instructions
+### Installation instructions
 1. Clone the repository from GitHub using given command. Make sure you have git installed on your computer.
 
 git clone https://github.com/dgyel1993-arch/EduAcad.git
@@ -41,7 +42,7 @@ npm run dev
 
 http://localhost:5173
 
-# Key Features
+### Key Features
 1. Course Catalog:
 For demonstration purposes, 50 courses are stored in a JSON file. Users can browse and search for any course they are interested in learning. 
 ![alt text](image.png)
@@ -78,7 +79,7 @@ User can search for courses.
 User can also update their profile.
 
 
-# Design decisions
+### Design decisions
 1. Vite for performance: Vite was chosen for fast development server. 
 2. LocalStorage: Chosen to simplify development and focus on frontend logic with backend simulation.
 3. React  (Component based): The app is split into reusable modules:
