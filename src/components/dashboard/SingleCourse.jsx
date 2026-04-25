@@ -107,7 +107,8 @@ export default function SingleCourse() {
   if (!course) {
     return <h2>Course not found</h2>;
   }
-
+  //getting first video for preview
+  const previewVideo = courseModules[0]?.videoUrl;
   return (
     <div className={styles.dashboardCourse}>
       {/* HERO */}
@@ -173,7 +174,20 @@ export default function SingleCourse() {
         {/* RIGHT SIDE (STICKY CARD) */}
         <div className={styles.right}>
           <div className={styles.card}>
-            <div className={styles.preview}></div>
+            <div className={styles.preview}>
+              {previewVideo ? (
+                <div className={styles.videoWrapper}>
+                  <iframe
+                    src={previewVideo}
+                    title="Course Preview"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              ) : (
+                <p>No preview available</p>
+              )}
+            </div>
 
             {!enrolled ? (
               <button
