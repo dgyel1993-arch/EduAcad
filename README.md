@@ -21,7 +21,7 @@ The system simulates a real-world e-learning platfrom such as Udemy and Coursera
 - Data Storage: JSON file for storing courses, modules and inital signed in users. LocalStorage for mock backend.
 
 # Installation instructions
-1. Clone the repository from GitHub using given command
+1. Clone the repository from GitHub using given command. Make sure you have git installed on your computer.
 
 git clone https://github.com/dgyel1993-arch/EduAcad.git
 
@@ -29,7 +29,7 @@ git clone https://github.com/dgyel1993-arch/EduAcad.git
 
 cd eduacad
 
-3. install dependencies
+3. install dependencies. You also need latest Node.js installed.
 
 npm install
 
