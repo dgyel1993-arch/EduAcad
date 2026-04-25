@@ -1,0 +1,149 @@
+/* DashboardSidebar.module.css */
+
+.sidebar {
+  width: 260px;
+  min-height: 100vh;
+  background: #ffffff;
+  border-right: 1px solid #ececec;
+  padding: 28px 20px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* PROFILE TOP */
+.profileSection {
+  text-align: center;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff3e4;
+  box-shadow: 0 8px 18px rgba(210, 131, 45, 0.15);
+}
+
+.userName {
+  margin-top: 14px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f1f1f;
+}
+
+.userRole {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #8a8a8a;
+}
+
+/* MENU */
+.menu {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menuItem {
+  text-decoration: none;
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.2s ease;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.menuItem svg {
+  font-size: 17px;
+}
+
+/* HOVER */
+.menuItem:hover {
+  background: #fff3e4;
+  color: #D2832D;
+}
+
+/* ACTIVE MENU (optional manual class later) */
+.active {
+  background: #D2832D;
+  color: white;
+}
+
+/* PUSH LAST ITEM DOWN */
+.menu a:last-child {
+  margin-top: auto;
+  color: #d9534f;
+}
+
+.menu a:last-child:hover {
+  background: #ffeaea;
+  color: #c9302c;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .sidebar {
+    width: 220px;
+    padding: 22px 16px;
+  }
+
+  .userName {
+    font-size: 16px;
+  }
+
+  .menuItem {
+    font-size: 14px;
+    padding: 11px 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 80px;
+    padding: 20px 10px;
+    align-items: center;
+  }
+
+  .profileSection {
+    width: 100%;
+  }
+
+  .avatar {
+    width: 58px;
+    height: 58px;
+  }
+
+  .userName,
+  .userRole,
+  .menuItem span {
+    display: none;
+  }
+
+  .menu {
+    width: 100%;
+    align-items: center;
+  }
+
+  .menuItem {
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    padding: 0;
+    border-radius: 12px;
+  }
+
+  .menuItem svg {
+    font-size: 18px;
+  }
+}

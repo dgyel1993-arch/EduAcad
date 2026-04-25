@@ -1,0 +1,71 @@
+.container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+/* CARD */
+.card {
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+}
+
+.courseName {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #1f1f1f;
+}
+
+.rating {
+  font-size: 14px;
+  font-weight: 600;
+  color: #D2832D;
+  margin-bottom: 6px;
+}
+
+.students {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+/* BUTTON */
+.btn {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  background: #D2832D;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #b96d1f;
+}

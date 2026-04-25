@@ -1,0 +1,121 @@
+.heroSection {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #fff7ed, #ffffff);
+}
+
+/* LEFT SIDE */
+.leftContent {
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #1f1f1f;
+  line-height: 1.2;
+}
+
+.title span {
+  color: #D2832D;
+}
+
+.subtitle {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #555;
+}
+
+/* SEARCH BAR */
+.searchBox {
+  margin-top: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.searchBox input {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.searchBtn {
+  background: #D2832D;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* BUTTONS */
+.btnGroup {
+  margin-top: 25px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.primaryBtn {
+  background: #D2832D;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.outlineBtn {
+  background: transparent;
+  border: 2px solid #D2832D;
+  color: #D2832D;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* RIGHT SIDE */
+.rightContent img {
+  width: 420px;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+
+  /* TITLE scaling */
+  .title {
+    font-size: 32px;
+    text-align: left;
+  }
+
+  /* SUBTITLE */
+  .subtitle {
+    font-size: 16px;
+  }
+
+  /* BUTTONS STACK */
+  .btnGroup {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .primaryBtn,
+  .outlineBtn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* IMAGE SPACING */
+  .rightContent {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .rightContent img {
+    width: 100%;
+    max-width: 300px;
+  }
+}

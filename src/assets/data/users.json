@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1001,
+    "name": "Dawa Gyeltshen",
+    "email": "dawa@gmail.com",
+    "password": "dawa@pass",
+    "enrolledCourses": []
+  },
+  {
+    "id": 1002,
+    "name": "Sonam Wangmo",
+    "email": "sonam@gmail.com",
+    "password": "sonam@pass",
+    "enrolledCourses": []
+  },
+  {
+    "id": 1003,
+    "name": "Tashi Wangchuk",
+    "email": "tashi@gmail.com",
+    "password": "tashi@pass",
+    "enrolledCourses": []
+  }
+]

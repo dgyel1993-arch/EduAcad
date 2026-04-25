@@ -1,0 +1,49 @@
+.footer {
+  background-color: #111827;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+/* BRAND LOGO */
+.logo {
+  color: #D2832D;
+  font-weight: bold;
+}
+
+/* TEXT */
+.text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* HEADINGS */
+.heading {
+  font-weight: bold;
+  color: white;
+}
+
+/* LINKS */
+.link {
+  display: block;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  margin-bottom: 6px;
+  transition: 0.3s ease;
+}
+
+.link:hover {
+  color: #D2832D;
+}
+
+/* BOTTOM BAR */
+.bottom {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 20px;
+  padding-top: 15px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+}

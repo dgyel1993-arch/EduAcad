@@ -1,0 +1,167 @@
+[
+  {
+    "courseId": 1,
+    "courseTitle": "React Basics",
+    "modules": [
+      {
+        "moduleId": 1,
+        "title": "Introduction to React",
+        "videoUrl": "https://www.youtube.com/embed/Ke90Tje7VS0",
+        "duration": "12 min",
+        "completed": false
+      },
+      {
+        "moduleId": 2,
+        "title": "JSX and Components",
+        "videoUrl": "https://www.youtube.com/embed/7O6G7n1x0zU",
+        "duration": "18 min",
+        "completed": false
+      },
+      {
+        "moduleId": 3,
+        "title": "Props and State",
+        "videoUrl": "https://www.youtube.com/embed/IYvD9oBCuJI",
+        "duration": "20 min",
+        "completed": false
+      },
+      {
+        "moduleId": 4,
+        "title": "Event Handling",
+        "videoUrl": "https://www.youtube.com/embed/9U3IhLAnSxM",
+        "duration": "15 min",
+        "completed": false
+      }
+    ]
+  },
+
+  {
+    "courseId": 2,
+    "courseTitle": "JavaScript Mastery",
+    "modules": [
+      {
+        "moduleId": 1,
+        "title": "JS Fundamentals",
+        "videoUrl": "https://www.youtube.com/embed/W6NZfCO5SIk",
+        "duration": "25 min",
+        "completed": false
+      },
+      {
+        "moduleId": 2,
+        "title": "ES6 Features",
+        "videoUrl": "https://www.youtube.com/embed/NCwa_xi0Uuc",
+        "duration": "30 min",
+        "completed": false
+      },
+      {
+        "moduleId": 3,
+        "title": "Asynchronous JS",
+        "videoUrl": "https://www.youtube.com/embed/PoRJizFvM7s",
+        "duration": "28 min",
+        "completed": false
+      }
+    ]
+  },
+
+  {
+    "courseId": 3,
+    "courseTitle": "UI/UX Design",
+    "modules": [
+      {
+        "moduleId": 1,
+        "title": "Design Principles",
+        "videoUrl": "https://www.youtube.com/embed/c9Wg6Cb_YlU",
+        "duration": "15 min",
+        "completed": false
+      },
+      {
+        "moduleId": 2,
+        "title": "Wireframing Basics",
+        "videoUrl": "https://www.youtube.com/embed/Zz6eOVaaelI",
+        "duration": "18 min",
+        "completed": false
+      },
+      {
+        "moduleId": 3,
+        "title": "Figma Introduction",
+        "videoUrl": "https://www.youtube.com/embed/FTFaQWZBqQ8",
+        "duration": "22 min",
+        "completed": false
+      }
+    ]
+  },
+  {
+  "courseId": 4,
+  "courseTitle": "JavaScript Essentials",
+  "modules": [
+    {
+      "moduleId": 1,
+      "title": "Introduction to JavaScript",
+      "videoUrl": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "duration": "20 min",
+      "completed": false
+    },
+    {
+      "moduleId": 2,
+      "title": "Variables and Data Types",
+      "videoUrl": "https://www.youtube.com/embed/hdI2bqOjy3c",
+      "duration": "22 min",
+      "completed": false
+    },
+    {
+      "moduleId": 3,
+      "title": "Functions and Scope",
+      "videoUrl": "https://www.youtube.com/embed/OXcGhVf5Q0M",
+      "duration": "25 min",
+      "completed": false
+    },
+    {
+      "moduleId": 4,
+      "title": "JavaScript Essentials",
+      "videoUrl": "https://www.youtube.com/embed/PkZNo7MFNFg",
+      "duration": "18 min",
+      "completed": false
+    }
+  ]
+},
+{
+  "courseId": 5,
+  "courseTitle": "Node.js Backend Development",
+  "modules": [
+    {
+      "moduleId": 1,
+      "title": "Introduction to Node.js",
+      "videoUrl": "https://www.youtube.com/embed/TlB_eWDSMt4",
+      "duration": "18 min",
+      "completed": false
+    },
+    {
+      "moduleId": 2,
+      "title": "NPM and Package Management",
+      "videoUrl": "https://www.youtube.com/embed/jHDhaSSKmB0",
+      "duration": "20 min",
+      "completed": false
+    },
+    {
+      "moduleId": 3,
+      "title": "Express.js Basics",
+      "videoUrl": "https://www.youtube.com/embed/L72fhGm1tfE",
+      "duration": "25 min",
+      "completed": false
+    },
+    {
+      "moduleId": 4,
+      "title": "REST APIs with Node.js",
+      "videoUrl": "https://www.youtube.com/embed/pKd0Rpw7O48",
+      "duration": "30 min",
+      "completed": false
+    },
+    {
+      "moduleId": 5,
+      "title": "Node.js Backend Development",
+      "videoUrl": "https://www.youtube.com/embed/Oe421EPjeBE",
+      "duration": "22 min",
+      "completed": false
+    }
+  ]
+}
+]
